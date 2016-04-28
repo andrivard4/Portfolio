@@ -1,0 +1,86 @@
+/***********************************
+   	Stylesheet for page: ALL
+   	Created by Andrew Rivard
+   	Date created: 2/7/16
+   	Font credit: Google.com
+   	Icon credit: Designerz Base
+   	Photo credit: unsplash.com 
+ **********************************/
+
+
+/* Setup fonts and body margin */
+h1 , h3, li, h6{
+	font-family: 'Raleway', sans-serif;
+}
+
+.header h1{
+	text-shadow: #333 0 0 10px;
+}
+
+h3 {
+	font-size: 30px;
+}
+
+* p{
+	font-family: 'Oxygen', sans-serif;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+/* Makes webpage look correct on large screens */
+.container {
+	max-width: 980px;
+}
+
+.footer{
+	background-color: #eee;
+	padding:20px 0; 
+}
+
+.footer img{
+	height:50px;
+}
+
+.footer a {
+	margin: 0 5px;
+}
+
+#shadow-top{
+	background-color: #eee;
+	box-shadow: inset 0px -105px 15px -111px black;
+	height: 10px;
+}
+
+#shadow-bottom{
+	background-color: #eee;
+	box-shadow: inset 0px 105px 15px -111px black;
+	height: 10px;
+}
+
+.social img{
+	vertical-align: middle;
+	height:25px;
+}
+
+.footer .center {
+	font-size: 14.25px;
+	vertical-align: middle;
+	margin-bottom: 10px;
+}
+
+.footer .row {
+	text-align: center;
+}
+
+.footer a{
+	text-decoration: none;
+	color:gray;
+}
+
+.footer p{
+	color:gray;
+	text-align: right;
+}
