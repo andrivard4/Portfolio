@@ -128,53 +128,6 @@
 	background-color: #eee;
 }
 
-/*------------------------------------------------
-I removed this because I want a carousel display as opposed to thumbnails
-------------------------------------------------
-Creates a thumbnail (I didn't like the bootstrap one
-   so I didnt use the '.thumbnail' class) 
-.tn {
-	height: auto;
-	width: 300px;
-	padding: 0;
-	border-radius: 3px;
-	box-shadow: 0 0 8px -3px #888888;
-	margin:40px auto;
-	position: relative;
-	z-index: 0;
-	overflow:hidden;
-}
-
-.tn:hover{
-	box-shadow: 0 20px 20px -3px #888888;
-  	transition: box-shadow 0.5s;
-	transform: scale(1.05,1.05);
-  	transition: transform 0.5s;
-}
-
-.tn img {
-	margin:0 -50%;
-}
-
-.info {
-	position: absolute;
-	height:40%;
-	width: 100%;
-	background-color: orange;
-	bottom: 0;
-	z-index: 1;
-}
-
- Makes transparent on hover (Will change with JS later) 
-.info:hover{
-	opacity: .3;
-  	transition: opacity .5s;
-}
-
-------------------------------------------------
-
-/Creates a box covering half the '.tn' div */
-
 .supporting h1 {
 	padding: 20px 0 10px;
 	text-align: center;
@@ -246,6 +199,9 @@ Creates a thumbnail (I didn't like the bootstrap one
 	.footer {
 		padding: 0 10%;
 	}
+	#controller {
+		width: 20%;
+	}
 }
 
 @media (max-width: 750px){
@@ -256,6 +212,14 @@ Creates a thumbnail (I didn't like the bootstrap one
 
 	.img-center {
 		margin: 20px 0 75px 0;
+		box-shadow: inset 0 0 20px -5px black; 
+	}
+
+	#controller{
+		display: none;
+	}
+	.img-center {
+		margin: 20px 0 0px 0;
 		box-shadow: inset 0 0 20px -5px black; 
 	}
 }
