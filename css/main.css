@@ -40,6 +40,10 @@ body {
 	padding:20px 0; 
 }
 
+.footer .row {
+	text-align:center;
+}
+
 .footer img{
 	height:50px;
 }
